@@ -1,0 +1,87 @@
+{
+  "_from": "hexo-fs@^1.0.0",
+  "_id": "hexo-fs@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-cbDnYuk6IndW/Fr2RcfZsZXE5wlG6tFoeBgZsHY230sSYalvX4JBPOUrE8As7Agysl+NGMthtr/Drtuliy5foQ==",
+  "_location": "/hexo-fs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "hexo-fs@^1.0.0",
+    "name": "hexo-fs",
+    "escapedName": "hexo-fs",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/hexo",
+    "/hexo/hexo-cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-fs/-/hexo-fs-1.0.2.tgz",
+  "_shasum": "5eabe344a79ab68e2fa6937cc5d468129308659f",
+  "_spec": "hexo-fs@^1.0.0",
+  "_where": "D:\\study\\test\\node_modules\\hexo",
+  "author": {
+    "name": "Tommy Chen",
+    "email": "tommy351@gmail.com",
+    "url": "http://zespia.tw"
+  },
+  "bugs": {
+    "url": "https://github.com/hexojs/hexo-fs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chokidar": "^2.0.4",
+    "escape-string-regexp": "^1.0.5",
+    "graceful-fs": "^4.1.11"
+  },
+  "deprecated": false,
+  "description": "File system module for Hexo.",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.9.0",
+    "eslint-config-hexo": "^3.0.0",
+    "iferr": "^1.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "files": [
+    "lib/fs.js"
+  ],
+  "homepage": "https://hexo.io/",
+  "keywords": [
+    "file",
+    "file system",
+    "fs",
+    "hexo"
+  ],
+  "license": "MIT",
+  "main": "lib/fs",
+  "maintainers": [
+    {
+      "name": "Abner Chou",
+      "email": "hi@abnerchou.me",
+      "url": "http://abnerchou.me"
+    }
+  ],
+  "name": "hexo-fs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexojs/hexo-fs.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover _mocha --print both test/index.js"
+  },
+  "version": "1.0.2"
+}

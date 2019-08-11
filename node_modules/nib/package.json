@@ -1,0 +1,60 @@
+{
+  "_from": "nib@^1.1.2",
+  "_id": "nib@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-amnt5AgblcDe+L4CSkyK4MLLtsc=",
+  "_location": "/nib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nib@^1.1.2",
+    "name": "nib",
+    "escapedName": "nib",
+    "rawSpec": "^1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.2"
+  },
+  "_requiredBy": [
+    "/hexo-renderer-stylus"
+  ],
+  "_resolved": "https://registry.npmjs.org/nib/-/nib-1.1.2.tgz",
+  "_shasum": "6a69ede4081b95c0def8be024a4c8ae0c2cbb6c7",
+  "_spec": "nib@^1.1.2",
+  "_where": "D:\\study\\test\\node_modules\\hexo-renderer-stylus",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "bugs": {
+    "url": "https://github.com/visionmedia/nib/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "stylus": "0.54.5"
+  },
+  "deprecated": false,
+  "description": "Stylus mixins and utilities",
+  "devDependencies": {
+    "connect": "1.x",
+    "jade": "0.22.0",
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/visionmedia/nib#readme",
+  "license": "MIT",
+  "main": "lib/nib.js",
+  "name": "nib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/nib.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-server": "node test/server.js"
+  },
+  "version": "1.1.2"
+}

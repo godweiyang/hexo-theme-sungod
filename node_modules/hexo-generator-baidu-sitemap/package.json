@@ -1,0 +1,61 @@
+{
+  "_from": "hexo-generator-baidu-sitemap",
+  "_id": "hexo-generator-baidu-sitemap@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-8AAqiuMp0MriVC8lFeFn4Y6O1dPvEo/YHxJWBdaEevoYyfCOtwdunk21XTcIHPHH9voWaKTuC0RJ1Cdaz8KifQ==",
+  "_location": "/hexo-generator-baidu-sitemap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-generator-baidu-sitemap",
+    "name": "hexo-generator-baidu-sitemap",
+    "escapedName": "hexo-generator-baidu-sitemap",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-generator-baidu-sitemap/-/hexo-generator-baidu-sitemap-0.1.6.tgz",
+  "_shasum": "0ac2f89a62a28d9b5b9710fdd29d2e9425d54f04",
+  "_spec": "hexo-generator-baidu-sitemap",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "Coney Geng",
+    "email": "coneylife@gmail.com",
+    "url": "http://gengbiao.me"
+  },
+  "bugs": {
+    "url": "https://github.com/coneycode/hexo-generator-baidu-sitemap/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "hexo": "^3.0.0",
+    "utils-merge": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Baidu Sitemap generator plugin for Hexo",
+  "homepage": "https://github.com/coneycode/hexo-generator-baidu-sitemap#readme",
+  "keywords": [
+    "hexo",
+    "sitemap",
+    "seo",
+    "generator",
+    "baidu"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/coneycode/hexo-generator-baidu-sitemap/LICENSE"
+  },
+  "main": "index",
+  "name": "hexo-generator-baidu-sitemap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coneycode/hexo-generator-baidu-sitemap.git"
+  },
+  "version": "0.1.6"
+}

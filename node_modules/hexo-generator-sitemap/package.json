@@ -1,0 +1,104 @@
+{
+  "_from": "hexo-generator-sitemap",
+  "_id": "hexo-generator-sitemap@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-MBj419Hi5Cs/caZacxb/z1g7w/M=",
+  "_location": "/hexo-generator-sitemap",
+  "_phantomChildren": {
+    "arr-flatten": "1.1.0",
+    "asap": "2.0.6",
+    "async-each": "1.0.3",
+    "expand-range": "1.8.2",
+    "filename-regex": "2.0.1",
+    "fsevents": "1.2.9",
+    "inherits": "2.0.4",
+    "is-binary-path": "1.0.1",
+    "is-buffer": "1.1.6",
+    "is-posix-bracket": "0.1.1",
+    "object.omit": "2.0.1",
+    "parse-glob": "3.0.4",
+    "path-is-absolute": "1.0.1",
+    "preserve": "0.2.0",
+    "readdirp": "2.2.1",
+    "regex-cache": "0.4.4",
+    "remove-trailing-separator": "1.1.0",
+    "repeat-element": "1.1.3",
+    "yargs": "3.32.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-generator-sitemap",
+    "name": "hexo-generator-sitemap",
+    "escapedName": "hexo-generator-sitemap",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-generator-sitemap/-/hexo-generator-sitemap-1.2.0.tgz",
+  "_shasum": "3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3",
+  "_spec": "hexo-generator-sitemap",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "Tommy Chen",
+    "email": "tommy351@gmail.com",
+    "url": "http://zespia.tw"
+  },
+  "bugs": {
+    "url": "https://github.com/hexojs/hexo-generator-sitemap/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "minimatch": "^3.0.0",
+    "nunjucks": "^2.3.0",
+    "object-assign": "^4.0.1"
+  },
+  "deprecated": false,
+  "description": "Sitemap generator plugin for Hexo",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.20.0",
+    "eslint": "^1.10.3",
+    "eslint-config-hexo": "^1.0.2",
+    "hexo": "^3.0.0",
+    "istanbul": "^0.4.2",
+    "jscs": "^2.9.0",
+    "jscs-preset-hexo": "^1.0.1",
+    "mocha": "^2.4.5"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "homepage": "https://github.com/hexojs/hexo-generator-sitemap#readme",
+  "keywords": [
+    "hexo",
+    "sitemap",
+    "seo",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "Abner Chou",
+      "email": "hi@abnerchou.me",
+      "url": "http://abnerchou.me"
+    }
+  ],
+  "name": "hexo-generator-sitemap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexojs/hexo-generator-sitemap.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "jscs": "jscs .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "version": "1.2.0"
+}

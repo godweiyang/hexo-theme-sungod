@@ -1,0 +1,46 @@
+{
+  "source": "./src",
+  "destination": "./ghpages/docs",
+  "excludes": ["\\.core\\.js$"],
+  "plugins": [
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "lint": {"enable": false},
+        "coverage": {"enable": true},
+        "undocumentIdentifier": {"enable": true},
+        "unexportedIdentifier": {"enable": false},
+        "typeInference": {"enable": true},
+        "brand": {
+          "title": "live2d-widget.js",
+          "description": "Add the Sseexxyyy live2d to webpages.",
+          "repository": "https://github.com/xiazeyu/live2d-widget.js",
+          "site": "https://github.com/xiazeyu/live2d-widget.js"
+        },
+        "manual": {
+        "index": "./README.md",
+        "globalIndex": true,
+        "asset": "./ghpages/assets/",
+        "files": [
+          "./README.md",
+          "./CHANGELOG.md"
+        ]
+        }
+      }
+    },
+    {
+      "name": "esdoc-ecmascript-proposal-plugin",
+      "option": {
+        "classProperties": true,
+        "objectRestSpread": true,
+        "doExpressions": true,
+        "functionBind": true,
+        "functionSent": true,
+        "asyncGenerators": true,
+        "decorators": true,
+        "exportExtensions": true,
+        "dynamicImport": true
+      }
+    }
+  ]
+}

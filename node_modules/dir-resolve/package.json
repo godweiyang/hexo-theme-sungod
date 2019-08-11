@@ -1,0 +1,56 @@
+{
+  "_from": "dir-resolve@^1.0.2",
+  "_id": "dir-resolve@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-c5Rv3+RmrzHBjddWUunCwwDgZRw=",
+  "_location": "/dir-resolve",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "dir-resolve@^1.0.2",
+    "name": "dir-resolve",
+    "escapedName": "dir-resolve",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "/hexo-prism-plugin"
+  ],
+  "_resolved": "https://registry.npmjs.org/dir-resolve/-/dir-resolve-1.0.2.tgz",
+  "_shasum": "73946fdfe466af31c18dd75652e9c2c300e0651c",
+  "_spec": "dir-resolve@^1.0.2",
+  "_where": "D:\\study\\blog\\node_modules\\hexo-prism-plugin",
+  "author": {
+    "name": "Matt Winchester"
+  },
+  "bugs": {
+    "url": "https://github.com/mwinche/dir-resolve/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Extension for require.resolve which will resolve directories as well as files",
+  "devDependencies": {
+    "ava": "0.15.1",
+    "eslint": "2.11.1"
+  },
+  "homepage": "https://github.com/mwinche/dir-resolve#readme",
+  "keywords": [
+    "require",
+    "resolve",
+    "directory"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "dir-resolve",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwinche/dir-resolve.git"
+  },
+  "scripts": {
+    "test": "ava tests/"
+  },
+  "version": "1.0.2"
+}

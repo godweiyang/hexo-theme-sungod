@@ -1,0 +1,51 @@
+{
+  "_from": "hexo-wordcount",
+  "_id": "hexo-wordcount@6.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==",
+  "_location": "/hexo-wordcount",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-wordcount",
+    "name": "hexo-wordcount",
+    "escapedName": "hexo-wordcount",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz",
+  "_shasum": "5a60efc9d3c8e421956f2fd6683ca94a8a795264",
+  "_spec": "hexo-wordcount",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "Willin Wang",
+    "email": "willin@willin.org",
+    "url": "http://willin.wang"
+  },
+  "bugs": {
+    "url": "https://github.com/willin/hexo-wordcount/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Post Word Count Plugin of Hexo.",
+  "homepage": "https://github.com/willin/hexo-wordcount",
+  "keywords": [
+    "hexo",
+    "wordcount",
+    "count"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-wordcount",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willin/hexo-wordcount.git"
+  },
+  "version": "6.0.1"
+}

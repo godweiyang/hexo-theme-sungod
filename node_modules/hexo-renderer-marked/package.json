@@ -1,0 +1,87 @@
+{
+  "_from": "hexo-renderer-marked",
+  "_id": "hexo-renderer-marked@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-oAOthvEYWJx4hvzD8WE7hOSYoTooOe5Vtb7mW6LtM3rEpQhXaWXPq7fOrEhCfdjgDr3DusSi7x19XgLIx+hcmQ==",
+  "_location": "/hexo-renderer-marked",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-renderer-marked",
+    "name": "hexo-renderer-marked",
+    "escapedName": "hexo-renderer-marked",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-1.0.1.tgz",
+  "_shasum": "7752e55afa789eb05e0d47c72e286a12c2c8e080",
+  "_spec": "hexo-renderer-marked",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "Tommy Chen",
+    "email": "tommy351@gmail.com",
+    "url": "http://zespia.tw"
+  },
+  "bugs": {
+    "url": "https://github.com/hexojs/hexo-renderer-marked/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-util": "^0.6.2",
+    "marked": "^0.6.1",
+    "strip-indent": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Markdown renderer plugin for Hexo",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.9.0",
+    "eslint-config-hexo": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "homepage": "https://github.com/hexojs/hexo-renderer-marked#readme",
+  "keywords": [
+    "hexo",
+    "markdown",
+    "marked",
+    "renderer"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "Abner Chou",
+      "email": "hi@abnerchou.me",
+      "url": "http://abnerchou.me"
+    }
+  ],
+  "name": "hexo-renderer-marked",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexojs/hexo-renderer-marked.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "version": "1.0.1"
+}

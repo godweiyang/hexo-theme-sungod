@@ -1,0 +1,52 @@
+{
+  "_from": "hexo-permalink-pinyin",
+  "_id": "hexo-permalink-pinyin@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jSbIqlw6oYXcGYgT2ak+mxoR5otFW9r/35Ui8+WlEIeHj7wgXXS+GIQuCMTAGrVsG80jEb3tTjp6Sseu7opMXg==",
+  "_location": "/hexo-permalink-pinyin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-permalink-pinyin",
+    "name": "hexo-permalink-pinyin",
+    "escapedName": "hexo-permalink-pinyin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-permalink-pinyin/-/hexo-permalink-pinyin-1.1.0.tgz",
+  "_shasum": "4be6bc897bfd00156a7a9b79149eb4725fbbd54f",
+  "_spec": "hexo-permalink-pinyin",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "viko16"
+  },
+  "bugs": {
+    "url": "https://github.com/viko16/hexo-permalink-pinyin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "transliteration": "^1.6.2"
+  },
+  "deprecated": false,
+  "description": "A Hexo plugin which convert Chinese title to transliterate permalink.",
+  "homepage": "https://github.com/viko16/hexo-permalink-pinyin#readme",
+  "keywords": [
+    "hexo",
+    "permalink"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-permalink-pinyin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viko16/hexo-permalink-pinyin.git"
+  },
+  "scripts": {},
+  "version": "1.1.0"
+}

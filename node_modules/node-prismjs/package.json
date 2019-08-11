@@ -1,0 +1,61 @@
+{
+  "_from": "node-prismjs@^0.1.0",
+  "_id": "node-prismjs@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-WKb6ZbUlPWarzS8jR2UdIbV4lYpt6sOTkIx3u5Ldz55K1Zzs982KyF6aj1zjZbrrx/UGZSZ1e0j28lIzcm3ceg==",
+  "_location": "/node-prismjs",
+  "_phantomChildren": {
+    "clipboard": "1.7.1"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "node-prismjs@^0.1.0",
+    "name": "node-prismjs",
+    "escapedName": "node-prismjs",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "/hexo-prism-plugin"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-prismjs/-/node-prismjs-0.1.2.tgz",
+  "_shasum": "dbfbc62d2210e1649d9dd8a6c6a2d7d6ca99a0f9",
+  "_spec": "node-prismjs@^0.1.0",
+  "_where": "D:\\study\\blog\\node_modules\\hexo-prism-plugin",
+  "author": {
+    "name": "Benjy Cui"
+  },
+  "bugs": {
+    "url": "https://github.com/benjycui/node-prismjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prismjs": "~1.6.0"
+  },
+  "deprecated": false,
+  "description": "An adapter which make it easier to use Prism in Node.js.",
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-egg": "^2.0.0"
+  },
+  "homepage": "https://github.com/benjycui/node-prismjs#readme",
+  "keywords": [
+    "prism.js",
+    "node.js",
+    "adapter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "node-prismjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjycui/node-prismjs.git"
+  },
+  "scripts": {
+    "eslint-fix": "eslint --fix ./index.js",
+    "lint": "eslint ./index.js"
+  },
+  "version": "0.1.2"
+}

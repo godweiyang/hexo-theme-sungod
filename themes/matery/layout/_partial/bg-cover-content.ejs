@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                <!-- <% if (config.subtitle && config.subtitle.length > 0) { %>
+                    <%= config.subtitle %>
+                <% } else { %>
+                    subtitle
+                <% } %> -->
+                <% if (is_archive()) { %>
+                    <%= __('archives') %>
+                <% } else if (is_category()) { %>
+                    <%= __('categories') %>
+                <% } else if (is_tag()) { %>
+                    <%= __('tag') %>
+                <% } else if (page.title && page.title.length > 0) { %>
+                    <%= __(page.title) %>
+                <% } else { %>
+                    <%= config.subtitle%>
+                <% } %>
+            </div>
+
+            <div class="description center-align">
+                <% if (config.description && config.description.length > 0) { %>
+                    <!-- <%= config.description %> -->
+                    <%- '<span id="jinrishici-sentence">正在加载今日诗词...</span>' %>
+                <% } else { %>
+                    This is your root _config.yml 'description' value.
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+// 每天切换 banner 图.  Switch banner image every day.
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>

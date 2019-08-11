@@ -1,0 +1,80 @@
+{
+  "_from": "hexo-generator-search",
+  "_id": "hexo-generator-search@2.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-470q6Cpu6xHIPMXN+rQjCQkn/ii4e8XJRBXCmKs+B1jGQNrT7K3geqfyd5pqGiGi6bh5yY+mNqwGw5r2sZZtzA==",
+  "_location": "/hexo-generator-search",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "wzpan",
+    "email": "m@hahack.com"
+  },
+  "_npmVersion": "2.11.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-generator-search",
+    "name": "hexo-generator-search",
+    "escapedName": "hexo-generator-search",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-generator-search/-/hexo-generator-search-2.4.0.tgz",
+  "_shasum": "f5abbbbbe35299f52c2554bb89845d0a4fab6c9b",
+  "_spec": "hexo-generator-search",
+  "_where": "D:\\study\\blog",
+  "author": {
+    "name": "wzpan",
+    "email": "m@hahack.com",
+    "url": "https://github.com/wzpan"
+  },
+  "bugs": {
+    "url": "https://github.com/Wzpan/hexo-generator-search/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nunjucks": "^3.0.1",
+    "utils-merge": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Seach generator plugin for Hexo",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/Wzpan/hexo-generator-search#readme",
+  "keywords": [
+    "hexo",
+    "search",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "maoshuhao",
+      "email": "326810048@qq.com"
+    },
+    {
+      "name": "wzpan",
+      "email": "m@hahack.com"
+    }
+  ],
+  "name": "hexo-generator-search",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wzpan/hexo-generator-search.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.4.0"
+}

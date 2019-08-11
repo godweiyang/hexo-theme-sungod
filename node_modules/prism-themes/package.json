@@ -1,0 +1,46 @@
+{
+  "_from": "prism-themes@^1.0.0",
+  "_id": "prism-themes@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xBkflbKbstGGasW3P68KQzAuObLQeH//I5mn37jKVHVDrRLp4Xct/n8F/tV5h+CKIMa3nDAZ2q0bt8ItSiS72A==",
+  "_location": "/prism-themes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prism-themes@^1.0.0",
+    "name": "prism-themes",
+    "escapedName": "prism-themes",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/hexo-prism-plugin"
+  ],
+  "_resolved": "https://registry.npmjs.org/prism-themes/-/prism-themes-1.1.0.tgz",
+  "_shasum": "9f4fadf0c9c7ee415773717ea69c2aaa25aedbfd",
+  "_spec": "prism-themes@^1.0.0",
+  "_where": "D:\\study\\blog\\node_modules\\hexo-prism-plugin",
+  "author": {
+    "name": "Lea Verou"
+  },
+  "bugs": {
+    "url": "https://github.com/prismjs/prism-themes/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Addtional themes for the Prism syntax highlighting library.",
+  "homepage": "https://github.com/prismjs/prism-themes#readme",
+  "license": "MIT",
+  "main": "README.md",
+  "name": "prism-themes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prismjs/prism-themes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no tests required\" && exit 0"
+  },
+  "version": "1.1.0"
+}
