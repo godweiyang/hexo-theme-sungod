@@ -47,7 +47,7 @@ highlight:
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: false    # default false
+  line_number: true    # default false
   custom_css:
 
 search:
@@ -111,11 +111,13 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository: git@github.com:godweiyang/godweiyang.github.io.git
-  # repository: https://git.coding.net/godweiyang/godweiyang.git
-  # repository: https://gitee.com/godweiyang/godweiyang.git
   branch: master
+# - type: coding
+#   repository: https://git.coding.net/godweiyang/godweiyang.github.io.git
+#   branch: master
+- type: baidu_url_submitter
 
 
 live2d:
@@ -136,3 +138,9 @@ live2d:
     show: false
   react:
     opacity: 0.7
+
+baidu_url_submit:
+  count: 100
+  host: godweiyang.com
+  token: 
+  path: baidu_urls.txt

@@ -1,0 +1,58 @@
+{
+  "_from": "hexo-baidu-url-submit",
+  "_id": "hexo-baidu-url-submit@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-0jDyIuw5B2Muqsjcf5Xxo1PNjxClPHP14FpB0amEAIr4wUdxk5zahImvOhkZwR9GrBhWKAPdjzmWS/xIMjzfrw==",
+  "_location": "/hexo-baidu-url-submit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-baidu-url-submit",
+    "name": "hexo-baidu-url-submit",
+    "escapedName": "hexo-baidu-url-submit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-baidu-url-submit/-/hexo-baidu-url-submit-0.0.6.tgz",
+  "_shasum": "2e8df814ceed3420e56cc27fd503f6023256dc6d",
+  "_spec": "hexo-baidu-url-submit",
+  "_where": "D:\\desktop\\blog-source-code",
+  "author": {
+    "name": "Hui WANG",
+    "email": "hedonplay@gmail.com",
+    "url": "https://www.hui-wang.info"
+  },
+  "bugs": {
+    "url": "https://github.com/huiwang/hexo-baidu-url-submit/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "deprecated": false,
+  "description": "submit new posts urls to baidu search engine",
+  "homepage": "https://github.com/huiwang/hexo-baidu-url-submit#readme",
+  "keywords": [
+    "hexo",
+    "deployer",
+    "baidu",
+    "url",
+    "submit",
+    "seo"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "hexo-baidu-url-submit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiwang/hexo-baidu-url-submit.git"
+  },
+  "scripts": {},
+  "version": "0.0.6"
+}
