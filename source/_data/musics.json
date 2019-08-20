@@ -1,18 +1,23 @@
 [
 	{
-		"name": "来自天堂的魔鬼",
-		"artist": "邓紫棋",
-		"url": "/medias/music/tiantangdemogui.mp3",
-		"cover": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563717347893&di=110c7c670d70e490135b581cbfd73e0d&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F00334B5xgy6WL0FCP0A10%26690"
-	},{
-		"name": "倒数",
-		"artist": "邓紫棋",
-		"url": "/medias/music/daoshu.mp3",
-		"cover": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563568131238&di=23ae51dda700bd4e3b624f66af1289f7&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201808%2F11%2F20180811021949_fVEST.jpeg"
+		"name": "夜曲",
+		"artist": "周杰伦",
+		"url": "/medias/music/yequ.mp3",
+		"cover": "/medias/music/avatars/yequ.jpg"
 	},{
 		"name": "一路向北",
 		"artist": "周杰伦",
 		"url": "/medias/music/yiluxiangbei.mp3",
-		"cover": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563566810433&di=68b80a762a497648670ef0df46ee8f57&imgtype=0&src=http%3A%2F%2F03imgmini.eastday.com%2Fmobile%2F20180918%2F20180918205448_99dfb333ca34518cb96823defa4c68c9_1.jpeg"
+		"cover": "/medias/music/avatars/yiluxiangbei.jpg"
+	},{
+		"name": "来自天堂的魔鬼",
+		"artist": "邓紫棋",
+		"url": "/medias/music/tiantangdemogui.mp3",
+		"cover": "/medias/music/avatars/tiantangdemogui.jpg"
+	},{
+		"name": "倒数",
+		"artist": "邓紫棋",
+		"url": "/medias/music/daoshu.mp3",
+		"cover": "/medias/music/avatars/daoshu.jpg"
 	}
 ]

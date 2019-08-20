@@ -1,9 +1,15 @@
 [
     {
-        "name": "godweiyang",
-        "url": "https://godweiyang.com",
+        "name": "自然语言处理与深度学习",
+        "url": "https://zhuanlan.zhihu.com/godweiyang",
         "title": "访问主页",
-        "introduction": "华东师范大学计算机系",
-        "avatar": "https://avatars2.githubusercontent.com/u/18682256?s=460&v=4"
+        "introduction": "我的知乎专栏，欢迎大家关注",
+        "avatar": "/medias/avatars/myzhihu.png"
+    },{
+        "name": "AntNLP",
+        "url": "https://antnlp.org",
+        "title": "访问主页",
+        "introduction": "华东师范大学自然语言处理实验室欢迎您的加入！",
+        "avatar": "/medias/avatars/antnlp.ico"
     }
 ]

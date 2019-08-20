@@ -177,6 +177,15 @@
 
 <main class="content">
     <div class="container friends-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                    <div id="articleContent" data-aos="fade-up">
+                        <%- page.content %>
+                    </div>
+                </div>
+            </div>
+        </div>
         <article id="friends-link">
             <% if (site.data && site.data.friends) { %>
             <% var friends = site.data.friends; %>
@@ -194,7 +203,7 @@
                                 </div>
                             </div>
                             <div class="friend-button">
-                                <a href="<%- friend.url %>" target="_blank" 
+                                <a href="<%- friend.url %>" target="_blank"
                                     class="button button-glow button-rounded button-caution">
                                     <%- friend.title %>
                                 </a>
@@ -210,9 +219,9 @@
 </main>
 
 <script>
-$(function () {
-    $('#friends-link').masonry({
-        itemSelector: '.friend-div'
+    $(function () {
+        $('#friends-link').masonry({
+            itemSelector: '.friend-div'
+        });
     });
-});
 </script>
