@@ -30,7 +30,7 @@ var featureImages = theme.featureImages;
                         <% } else { %>
                         <%
                             var len = featureImages.length;
-                            var num = Math.abs(hashCode(page.prev.title) % len);
+                            var num = Math.abs((hashCode(page.prev.title) + new Date().getDay()) % len);
                             featureimg = featureImages[num];
                         %>
                         <img src="<%= featureimg %>" class="responsive-img" alt="<%- page.prev.title %>">
@@ -86,7 +86,7 @@ var featureImages = theme.featureImages;
                         <% } else { %>
                         <%
                             var len = featureImages.length;
-                            var num = Math.abs(hashCode(page.title) % len);
+                            var num = Math.abs((hashCode(page.title) + new Date().getDay()) % len);
                             featureimg = featureImages[num];
                         %>
                         <img src="<%= featureimg %>" class="responsive-img" alt="<%- page.title %>">
@@ -144,7 +144,7 @@ var featureImages = theme.featureImages;
                         <% } else { %>
                         <%
                             var len = featureImages.length;
-                            var num = Math.abs(hashCode(page.next.title) % len);
+                            var num = Math.abs((hashCode(page.next.title) + new Date().getDay()) % len);
                             featureimg = featureImages[num];
                         %>
                         <img src="<%= featureimg %>" class="responsive-img" alt="<%- page.next.title %>">
@@ -200,7 +200,7 @@ var featureImages = theme.featureImages;
                         <% } else { %>
                         <%
                             var len = featureImages.length;
-                            var num = Math.abs(hashCode(page.title) % len);
+                            var num = Math.abs((hashCode(page.title) + new Date().getDay()) % len);
                             featureimg = featureImages[num];
                         %>
                         <img src="<%= featureimg %>" class="responsive-img" alt="<%- page.title %>">

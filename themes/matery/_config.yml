@@ -35,7 +35,7 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: true
+  enable: false
   showTitle: true
   title: 神秘嘉宾
   text: 我搬到谁的隔壁，谁成了我的邻居。鸣谢生命有你参与，笑纳我的邀请。
@@ -98,7 +98,7 @@ socialLink:
   qq: 792321264
   github: godweiyang
   weibo: godweiyang
-  email: weiyang@godweiyang.com
+  email: i@godweiyang.com
   zhihu: godweiyang
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -154,6 +154,12 @@ wordCount:
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
   enable: true
+explosion:
+  enable: false
+firework:
+  enable: false
+text:
+  enable: false
 
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
@@ -190,7 +196,7 @@ myProjects:
 mySkills:
   enable: true
   data:
-    算法:
+    Algorithm:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 90%
     C++:
@@ -199,6 +205,12 @@ mySkills:
     Python:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
+    Pytorch:
+      background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
+      percent: 75%
+    Dynet:
+      background: 'linear-gradient(to right, #F12F12 0%, #F6464F 100%)'
+      percent: 75%
     Java:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 50%
@@ -230,8 +242,8 @@ gitalk:
   owner: godweiyang
   repo: godweiyang.github.io
   oauth:
-    clientId:
-    clientSecret:
+    clientId: 
+    clientSecret: 
   admin: godweiyang
 
 # the Gitment config，default disabled
@@ -260,15 +272,15 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
+  enable: true
+  appId: 
+  appKey: 
   notify: false
   verify: false
-  visitor: true
-  avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  visitor: false
+  avatar: 'wavatar' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: '如果你没有GitHub账号，还可以在这里评论啦！' # Comment Box placeholder
 
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
@@ -324,6 +336,9 @@ libs:
     scrollProgress: /libs/scrollprogress/scrollProgress.min.js
     lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.6.11
     clicklove: /libs/others/clicklove.js
+    explosion: /libs/others/explosion.min.js
+    firework: /libs/others/firework.js
+    text: /libs/others/text.js
     busuanzi: /libs/others/busuanzi.pure.mini.js
     aplayer: /libs/aplayer/APlayer.min.js
     dplayer: /libs/dplayer/DPlayer.min.js
@@ -332,6 +347,7 @@ libs:
     gitalk: /libs/gitalk/gitalk.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
+    snow: /libs/others/snow.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
@@ -364,10 +380,6 @@ featureImages:
 - /medias/featureimages/25.jpg
 - /medias/featureimages/26.jpg
 - /medias/featureimages/27.jpg
-- /medias/featureimages/28.jpg
-- /medias/featureimages/29.jpg
-- /medias/featureimages/30.jpg
-- /medias/featureimages/31.jpg
 
   # default configs that the default policy for every articles/posts
   # default 配置文章的默认转载规则
@@ -391,3 +403,8 @@ featureImages:
 reprint:
   enable: true # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
+
+
+# 雪花特效
+snow:
+  enable: false

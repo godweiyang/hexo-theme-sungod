@@ -72,7 +72,7 @@
                                 <% } else { %>
                                 <%
                                     var len = featureImages.length;
-                                    var num = Math.abs(hashCode(post.title) % len);
+                                    var num = Math.abs((hashCode(post.title) + new Date().getDay()) % len);
                                     featureimg = featureImages[num];
                                 %>
                                 <img src="<%= featureimg %>" class="responsive-img" alt="<%- post.title %>">

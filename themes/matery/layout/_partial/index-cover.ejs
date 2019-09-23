@@ -106,7 +106,7 @@ var coverPostsCount = coverPosts.length;
     <%
         var post = coverPosts[i];
         var coverImg = post.coverImg ? post.coverImg
-                : (post.img ? post.img : featureImages[Math.abs(hashCode(post.title) % imgCount)]);
+                : (post.img ? post.img : featureImages[Math.abs((hashCode(post.title) + new Date().getDay()) % imgCount)]);
     %>
     <div class="carousel-item amber white-text carousel-post bg-cover"
             style="background-image: url('<%- coverImg %>');">

@@ -45,7 +45,7 @@
     <% for (var i = 0; i < topPostsCount; i++) { %>
     <%
         var post = topPosts[i];
-        var featureImg = post.img ? post.img : featureImages[Math.abs(hashCode(post.title) % imgCount)];
+        var featureImg = post.img ? post.img : featureImages[Math.abs((hashCode(post.title) + new Date().getDay()) % imgCount)];
         var bgColor = bgColorArr[i % colorCount];
     %>
     <div class="col s12 m6" <% if (i > 1) { %>data-aos="zoom-in-up"<% } %>>
@@ -84,7 +84,7 @@
         if (post.summary && post.summary.length > 0) {
             description = post.summary;
         }
-        var featureImg = post.img ? post.img : featureImages[Math.abs(hashCode(post.title) % imgCount)];
+        var featureImg = post.img ? post.img : featureImages[Math.abs((hashCode(post.title) + new Date().getDay()) % imgCount)];
         var bgColor = bgColorArr[i % colorCount];
     %>
     <div class="col <%- grid %>" <% if (i > 0) { %>data-aos="zoom-in-up"<% } %>>

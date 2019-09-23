@@ -31,7 +31,7 @@
                             <% } else { %>
                             <%
                                 var len = theme.featureImages.length;
-                                var num = Math.abs(hashCode(post.title) % len);
+                                var num = Math.abs((hashCode(post.title) + new Date().getDay()) % len);
                                 var featureimg = theme.featureImages[num];
                             %>
                             <img src="<%= featureimg %>" class="responsive-img" alt="<%- post.title %>">
