@@ -8,11 +8,9 @@
 [https://godweiyang.com/2018/04/13/hexo-blog/](https://godweiyang.com/2018/04/13/hexo-blog/)
 
 # 使用方法
-为了减小源码的体积，我将插件目录`node_modules`放在了`node_modules`分支下面，有需要的同学可以另行下载。另外添加水印需要的字体文件我也删除了，大家可以直接从电脑自带的字体库中拷贝。
+为了减小源码的体积，我将插件目录`node_modules`进行了压缩，大家下载完后需要解压。另外添加水印需要的字体文件我也删除了，大家可以直接从电脑自带的字体库中拷贝。
 
-* 首先运行`git clone git@github.com:godweiyang/hexo-matery-modified.git`将`master`分支下的所有文件下载到本地。
-* 然后进入`hexo-matery-modified`文件夹下，运行`git checkout -b node_modules origin/node_modules`将`node_modules`分支下的所有文件下载到本地。
-* 然后运行`git checkout master`、`git pull origin master`、`git merge node_modules`，这样两个分支里的文件就合并了。
+* 首先运行`git clone git@github.com:godweiyang/hexo-matery-modified.git`将所有文件下载到本地。
 * 解压`node_modules.zip`，然后删除`node_modules.zip`和`.git`文件夹。
 * 还缺一个字体（为图片添加水印需要用到），去`C:\Windows\Fonts`下找到`STSong Regular`，复制到`hexo-matery-modified`文件夹下。
 
