@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="<%= config.language %>">
+<%- partial('_partial/head') %>
+
+<body>
+
+    <%- partial('_partial/header') %>
+    <%- body %>
+    <%- partial('_partial/footer') %>
+
+    <%- partial('_partial/search') %>
+    <%- partial('_partial/back-top') %>
+
+    <script src="<%- theme.libs.js.materialize %>"></script>
+    <script src="<%- theme.libs.js.masonry %>"></script>
+    <script src="<%- theme.libs.js.aos %>"></script>
+    <script src="<%- theme.libs.js.scrollProgress %>"></script>
+    <script src="<%- theme.libs.js.lightgallery %>"></script>
+    <script src="/js/matery.js"></script>
+
+    <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ喔哟，崩溃啦！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪咦，又好了！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) })
+    </script>
+
+    <%- partial('_partial/google-analytics') %>
+
+    <% if (theme.clicklove.enable) { %>
+    <script src="<%- theme.libs.js.clicklove %>"></script>
+    <% } else if (theme.explosion.enable) { %>
+    <script src="<%- theme.libs.js.explosion %>"></script>    
+    <% } else if (theme.firework.enable) { %>
+    <script src="<%- theme.libs.js.firework %>"></script>    
+    <% } else if (theme.text.enable) { %>
+    <script src="<%- theme.libs.js.text %>"></script>    
+    <% } %>
+
+    <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+    <script async src="<%- theme.libs.js.busuanzi %>"></script>
+    <% } %>
+
+    <!-- 雪花特效 -->
+    <% if (theme.snow.enable) { %>
+    <script type="text/javascript" src="<%- theme.libs.js.snow %>"></script>
+    <% } %>
+
+</body>
+
+</html>

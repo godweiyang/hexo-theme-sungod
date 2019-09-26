@@ -1,0 +1,113 @@
+<%
+    var title = page.title;
+
+    // tags, categories, about pages title
+    if (title == 'tags') {
+        title = __('tags');
+    } else if (title == 'categories') {
+        title = __('categories');
+    } else if (title == 'about') {
+        title = __('about');
+    } else if (title == 'friends') {
+        title = __('friends');
+    } else if (title == 'contact') {
+        title = __('contact');
+    }
+
+    // archives, category, tag pages title
+    if (is_archive()) {
+        title = __('archives');
+        if (is_month()) {
+            title += ': ' + page.year + '/' + page.month;
+        } else if (is_year()) {
+            title += ': ' + page.year;
+        }
+    } else if (is_category()) {
+        title = __('category') + ': ' + page.category;
+    } else if (is_tag()) {
+        title = __('tag') + ': ' + page.tag;
+    }
+
+    // final page title.
+    var pageTitle = title ? title + ' | ' + config.title : config.title;
+
+    // keywords.
+    var keyWords = config.keywords ? config.keywords : config.title;
+    keyWords = title ? title  + ', ' + keyWords : keyWords;
+
+    // description.
+    var description = null;
+    if (page.hasOwnProperty('__post') && page.__post) {
+        description = strip_html(page.content).substring(0, 120);
+    }
+    description = description ? description : pageTitle;
+
+    let iconType = 'image/png'
+    let faviconExt = theme.favicon.substr(theme.favicon.lastIndexOf('.') + 1, theme.favicon.length)
+    if (faviconExt === 'png') {
+        iconType = 'image/png'
+    } else if (faviconExt === 'svg') {
+        iconType = 'image/svg+xml'
+    } else if (faviconExt === 'gif') {
+        iconType = 'image/gif'
+    } else if (faviconExt === 'jpeg') {
+        iconType = 'image/jpeg'
+    } else if (faviconExt === 'jpg') {
+        iconType = 'image/jpeg'
+    } else if (faviconExt === 'ico') {
+        iconType = 'image/x-icon, image/vnd.microsoft.icon'
+    } else {
+        // more definitions
+    }
+%>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="<%= keyWords %>">
+    <meta name="baidu-site-verification" content="" />
+    <meta name="google-site-verification" content="" />
+    <meta name="360-site-verification" content="" />
+    <meta name="description" content="<%= description %>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title><%= pageTitle %></title>
+    <link rel="icon" type="<%= iconType %>" href="<%- theme.favicon %>">
+
+    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.fontAwesome %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.materialize %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.aos %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.animate %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.lightgallery %>">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        <% if ( !theme.code.break) {
+
+            %>code[class*="language-"],
+            pre[class*="language-"] {
+                white-space: pre !important;
+            }
+
+            <%
+        }
+
+        %>
+    </style>
+
+    <script src="<%- theme.libs.js.jquery %>"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?46e79e71af0709a5b9106bf20cecc493";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>

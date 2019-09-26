@@ -1,0 +1,151 @@
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    <% if (page.tags && page.tags.length) { %>
+                    <div class="article-tag">
+                        <% page.tags.forEach(function(tag) { %>
+                        <a href="<%- url_for(tag.path) %>" target="_blank">
+                            <span class="chip bg-color"><%= tag.name %></span>
+                        </a>
+                        <% }); %>
+                    </div>
+                    <% } else { %>
+                    <div class="article-tag">
+                        <span class="chip bg-color"><%- __("notag")  %></span>
+                    </div>
+                    <% } %>
+                </div>
+                <div class="col s5 right-align">
+                    <% if (page.categories && page.categories.length > 0) { %>
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        <% page.categories.forEach(category => { %>
+                        <a href="<%- url_for(category.path) %>" class="post-category" target="_blank">
+                            <%- category.name %>
+                        </a>
+                        <% }); %>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i><%- __('publishDate') %>:&nbsp;&nbsp;
+                    <%- date(page.date, 'YYYY-MM-DD') %>
+                </div>
+
+                <div class="post-author info-break-policy">
+                    <i class="fa fa-user-o fa-fw"></i><%- __('author') %>:&nbsp;&nbsp;
+                    <% if (page.author && page.author.length > 0) { %>
+                    <%- page.author %>
+                    <% } else {%>
+                    <%- config.author %>
+                    <% } %>
+                </div>
+
+                <% if (theme.wordCount.enable) { %>
+                <% if (theme.wordCount.postWordCount) { %>
+                <div class="info-break-policy">
+                    <i class="fa fa-file-word-o fa-fw"></i><%- __('wordCount') %>:&nbsp;&nbsp;
+                    <%= wordcount(page.content) %>
+                </div>
+                <% } %>
+
+                <% if (theme.wordCount.min2read) { %>
+                <div class="info-break-policy">
+                    <i class="fa fa-clock-o fa-fw"></i><%- __('readTimes') %>:&nbsp;&nbsp;
+                    <%= min2read(page.content) %> <%= __('Minutes') %>
+                </div>
+                <% } %>
+                <% } %>
+
+                <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+                <div id="busuanzi_container_page_pv" class="info-break-policy">
+                    <i class="fa fa-eye fa-fw"></i><%- __('readCount') %>:&nbsp;&nbsp;
+                    <span id="busuanzi_value_page_pv"></span>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <%- page.content %>
+            </div>
+            <hr />
+
+            <% if (theme.reward && theme.reward.enable) { %>
+            <%- partial('_partial/reward') %>
+            <% } %>
+
+            <%- partial('_partial/share') %>
+
+            <%- partial('_partial/reprint-statement') %>
+        </div>
+    </div>
+
+    <% if (theme.gitalk && theme.gitalk.enable) { %>
+    <%- partial('_partial/gitalk') %>
+    <% } %>
+
+    <% if (theme.gitment.enable) { %>
+    <%- partial('_partial/gitment') %>
+    <% } %>
+
+    <% if (theme.disqus.enable) { %>
+    <%- partial('_partial/disqus') %>
+    <% } %>
+
+    <% if (theme.livere && theme.livere.enable) { %>
+    <%- partial('_partial/livere') %>
+    <% } %>
+
+    <% if (theme.valine && theme.valine.enable) { %>
+    <%- partial('_partial/valine') %>
+    <% } %>
+
+    <%- partial('_partial/prev-next') %>
+</div>
+
+<% if (theme.copyright.enable) { %>
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('<%- theme.copyright.minCharNumber %>')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '<%- __("from")  %>: <%- config.title %><br />'
+            + '<%- __("author")  %>: <%- config.author %><br />'
+            + '<%- __("link")  %>: <a href="' + url + '">' + url + '</a><br />'
+            + '<%- theme.copyright.description %>';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () { bodyElement.removeChild(newdiv); }, 200);
+    });
+</script>
+<% } %>
