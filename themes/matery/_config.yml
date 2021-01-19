@@ -3,25 +3,25 @@
 menu:
   Index:
     url: /
-    icon:
+    icon: fa-home
   Tags:
     url: /tags
-    icon:
+    icon: fa-tags
   Categories:
     url: /categories
-    icon:
+    icon: fa-bookmark
   Archives:
     url: /archives
-    icon:
+    icon: fa-archive
   About:
     url: /about
-    icon:
+    icon: fa-user-circle-o
   Friends:
     url: /friends
-    icon:
+    icon: fa-address-book
   Contact:
     url: /contact
-    icon:
+    icon: fa-comments
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -37,13 +37,14 @@ cover:
 dream:
   enable: false
   showTitle: true
-  title: 神秘嘉宾
+  title: 欢迎关注
   text: 我搬到谁的隔壁，谁成了我的邻居。鸣谢生命有你参与，笑纳我的邀请。
+  img: https://pic1.zhimg.com/80/v2-0205cde00e314b1414a5e9d94106a431_r.jpg
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   showTitle: false
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -98,7 +99,7 @@ socialLink:
   qq: 792321264
   github: godweiyang
   weibo: godweiyang
-  email: i@godweiyang.com
+  email: godweiyang@gmail.com
   zhihu: godweiyang
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -166,7 +167,7 @@ text:
 profile:
   avatar: /medias/avatars/avatar.jpg
   career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！
+  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！欢迎关注我的微信公众号「算法码上来」，干货每天不错过！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -179,11 +180,11 @@ myProjects:
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/godweiyang/hexo-matery-modified
       desc: 我的个性化配置过的博客源码，即下即用。
-    ConParser:
+    Span-Linearization-Parser:
         icon: fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/godweiyang/ConParser
-        desc: 基于dynet的成分句法分析模型整合。
+        url: https://github.com/AntNLP/span-linearization-parser
+        desc: 基于PyTorch的成分句法分析模型，ACL2020论文源码。
     ECNU-BeamerTemplate:
         icon: fa-file-text-o
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
@@ -242,8 +243,8 @@ gitalk:
   owner: godweiyang
   repo: godweiyang.github.io
   oauth:
-    clientId: 
-    clientSecret: 
+    clientId: 查教程获取
+    clientSecret: 查教程获取
   admin: godweiyang
 
 # the Gitment config，default disabled
@@ -273,8 +274,8 @@ livere:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId: 
-  appKey: 
+  appId: 查教程获取
+  appKey: 查教程获取
   notify: false
   verify: false
   visitor: false
@@ -286,7 +287,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/godweiyang
+  url: https://github.com/godweiyang/hexo-matery-modified
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -311,7 +312,7 @@ busuanziStatistics:
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: true
-  id: 
+  id: 查教程获取
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -380,6 +381,7 @@ featureImages:
 - /medias/featureimages/25.jpg
 - /medias/featureimages/26.jpg
 - /medias/featureimages/27.jpg
+- /medias/featureimages/28.jpg
 
   # default configs that the default policy for every articles/posts
   # default 配置文章的默认转载规则
@@ -408,3 +410,5 @@ reprint:
 # 雪花特效
 snow:
   enable: false
+
+baidu_push: true

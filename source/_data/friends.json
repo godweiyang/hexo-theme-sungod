@@ -1,10 +1,16 @@
 [
     {
-        "name": "自然语言处理与深度学习",
+        "name": "知乎专栏",
         "url": "https://zhuanlan.zhihu.com/godweiyang",
         "title": "访问主页",
-        "introduction": "我的知乎专栏，欢迎大家关注",
+        "introduction": "算法码上来",
         "avatar": "/medias/avatars/myzhihu.png"
+    },{
+        "name": "火山翻译",
+        "url": "https://translate.volcengine.cn",
+        "title": "访问主页",
+        "introduction": "提供全球领先的翻译技术与服务",
+        "avatar": "/medias/avatars/bytedtrans.png"
     },{
         "name": "AntNLP",
         "url": "https://antnlp.org",
@@ -42,14 +48,8 @@
         "introduction": "十步杀一人，千里不留行，事了拂衣去，深藏功与名。",
         "avatar": "/medias/avatars/0xbird.png"
     },{
-        "name": "齐强的博客",
-        "url": "https://chrisqiqiang.com/",
-        "title": "访问主页",
-        "introduction": "燥动灵魂，无处安放；放浪形骸,随处可栖。",
-        "avatar": "/medias/avatars/qiqiang.jpg"
-    },{
         "name": "李佳倩的博客",
-        "url": "http://jiaqianlee.com/",
+        "url": "https://jiaqianlee.com/",
         "title": "访问主页",
         "introduction": "一只小白的成长之路！",
         "avatar": "/medias/avatars/lijiaqian.png"
@@ -59,12 +59,6 @@
         "title": "访问主页",
         "introduction": "好大一只咸鱼哇",
         "avatar": "/medias/avatars/kewlgrl.jpg"
-    },{
-        "name": "孙哥我还是看不透生死",
-        "url": "https://www.navazil.com/",
-        "title": "访问主页",
-        "introduction": "华东师范大学计算机系",
-        "avatar": "/medias/avatars/zhaokangzhe.jpg"
     },{
         "name": "Think Far Blog",
         "url": "https://wuli749826.github.io",
@@ -91,7 +85,7 @@
         "avatar": "/medias/avatars/qianqian.png"
     },{
         "name": "ElaineLv",
-        "url": "https://www.elainelv.top/",
+        "url": "https://www.elainelv.com/",
         "title": "访问主页",
         "introduction": "Stay hungry, Stay foolish",
         "avatar": "/medias/avatars/lyn-draw.jpg"
@@ -108,18 +102,6 @@
         "introduction": "做什么都是因为喜欢",
         "avatar": "/medias/avatars/jingjing.jpg"
     },{
-        "name": "婷宝的博客",
-        "url": "https://milyyy.github.io/",
-        "title": "访问主页",
-        "introduction": "希望有一个陪我到老的人，还有很多啦（略略略）~ 不过终极梦想嘛，就是做一个快乐的包租婆啦！ 哈哈哈(●'◡'●)",
-        "avatar": "/medias/avatars/milyyy.jpg"
-    },{
-        "name": "隐函数_北极鹅",
-        "url": "https://www.zhihu.com/people/bei-ji-e-13",
-        "title": "访问主页",
-        "introduction": "玩CV的音乐人，搞rock的程序员",
-        "avatar": "/medias/avatars/ldy.jpg"
-    },{
         "name": "Sweet-Q",
         "url": "https://sweet-q.github.io",
         "title": "访问主页",
@@ -127,7 +109,7 @@
         "avatar": "/medias/avatars/babyq.png"
     },{
         "name": "伟大的蚊子",
-        "url": "https://blog.csdn.net/cww97",
+        "url": "https://www.cnblogs.com/cww97/",
         "title": "访问主页",
         "introduction": "鼓楼的夜晚时间匆匆",
         "avatar": "/medias/avatars/cww97.jpg"
@@ -163,7 +145,7 @@
         "avatar": "/medias/avatars/mashiro.jpg"
     },{
         "name": "hzwer",
-        "url": "http://hzwer.com/",
+        "url": "https://hzwer.com/",
         "title": "访问主页",
         "introduction": "北京大学计算机系",
         "avatar": "/medias/avatars/hzwer.jpg"
@@ -192,12 +174,6 @@
         "introduction": "我哽咽道：你是赵默笙，可我不是何以琛啊。",
         "avatar": "/medias/avatars/xuzhongyou.jpg"
     },{
-        "name": "Yucheng Li",
-        "url": "https://liyucheng.info/",
-        "title": "访问主页",
-        "introduction": "目前关注知识图谱与关系抽取领域",
-        "avatar": "/medias/avatars/liyucheng.jpg"
-    },{
         "name": "zerol",
         "url": "https://zerol.me/",
         "title": "访问主页",
@@ -205,7 +181,7 @@
         "avatar": "/medias/avatars/huaji.jpg"
     },{
         "name": "Zhang Yi",
-        "url": "http://codewithzhangyi.com/",
+        "url": "https://codewithzhangyi.com/",
         "title": "访问主页",
         "introduction": "Coding is the New Sexy",
         "avatar": "/medias/avatars/zhangyi.jpg"
@@ -216,16 +192,130 @@
         "introduction": "中山大学基础数学研究生",
         "avatar": "/medias/avatars/spacesac.png"
     },{
-        "name": "神圣超级无敌宇宙大王",
-        "url": "http://sscjwdyzdw.club",
+        "name": "lucifer的博客",
+        "url": "https://lucifer.ren/blog/",
+        "title": "访问主页",
+        "introduction": "一个脑洞很大的程序员。",
+        "avatar": "https://tva1.sinaimg.cn/large/006tNbRwly1ga7ognflh9j30b40b4q3w.jpg"
+    },{
+        "name": "钱栋伟",
+        "url": "https://sscjwdyzdw.club",
         "title": "访问主页",
         "introduction": "华东师范大学计算机系",
         "avatar": "/medias/avatars/qiandongwei.jpg"
     },{
-        "name": "咸鱼的自我修养",
+        "name": "CJ Blog",
         "url": "https://chrisju.cn/",
         "title": "访问主页",
         "introduction": "Failing means foolish.",
         "avatar": "/medias/avatars/mouse.jpg"
+    },{
+        "name": "Tawn",
+        "url": "https://tawn0000.github.io/",
+        "title": "访问主页",
+        "introduction": "JNU ACMer",
+        "avatar": "/medias/avatars/tawn.jpg"
+    },{
+        "name": "Master X",
+        "url": "https://masterx.top/",
+        "title": "访问主页",
+        "introduction": "ECNU&ML&DL",
+        "avatar": "/medias/avatars/masterx.jpg"
+    },{
+        "name": "分享客",
+        "url": "https://sharerdiary.com/",
+        "title": "访问主页",
+        "introduction": "爱生活，爱分享！",
+        "avatar": "/medias/avatars/yezijie.png"
+    },{
+        "name": "taotao",
+        "url": "https://zouzhitao.github.io",
+        "title": "访问主页",
+        "introduction": "taotao 码字的地方",
+        "avatar": "/medias/avatars/taotao.jpg"
+    },{
+        "name": "Xiejiadong",
+        "url": "https://xiejiadong.com",
+        "title": "访问主页",
+        "introduction": "Xiejiadong's blog",
+        "avatar": "/medias/avatars/xiejiadong.jpg"
+    },{
+        "name": "飞吧",
+        "url": "https://fei.bar",
+        "title": "访问主页",
+        "introduction": "啓飞的个人博客",
+        "avatar": "/medias/avatars/feibar.png"
+    },{
+        "name": "ajin",
+        "url": "https://ajin.cloud",
+        "title": "访问主页",
+        "introduction": "Always be enthusiastic",
+        "avatar": "/medias/avatars/ajin.jpg"
+    },{
+        "name": "Hiyoung",
+        "url": "https://hiyoungai.com/",
+        "title": "访问主页",
+        "introduction": "宠辱不惊，看庭前花开花落；去留无意，望天空云卷云舒。",
+        "avatar": "https://cdn.jsdelivr.net/gh/hiyoung123/cdn/img/avatar.jpg"
+    },{
+        "name": "无言的博客",
+        "url": "https://www.yzplove.top",
+        "title": "访问主页",
+        "introduction": "代码真是越敲越香",
+        "avatar": "https://cdn.jsdelivr.net/gh/yzp-99/yzp-99.github.io/medias/avatars/me.jpg"
+    },{
+        "name": "Naixin Zhang",
+        "url": "https://naixinzhang.github.io/",
+        "title": "访问主页",
+        "introduction": "Econ Master | Data Analyst/scientist Candidate",
+        "avatar": "https://naixinzhang.github.io/medias/avatars/avatar.jpg"
+    },{
+        "name": "帅张的梦呓",
+        "url": "https://ishuaizhang.com",
+        "title": "访问主页",
+        "introduction": "XDUer",
+        "avatar": "https://ishuaizhang.com/medias/avatars/avatar.jpg"
+    },{
+        "name": "Gatsby’s blog",
+        "url": "https://a347807131.github.io/",
+        "title": "访问主页",
+        "introduction": "Nothing perfect, Noting special.",
+        "avatar": "https://a347807131.github.io/medias/avatar.gif"
+    },{
+        "name": "宇宙湾",
+        "url": "https://yuzhouwan.com/",
+        "title": "访问主页",
+        "introduction": "主要是大数据和人工智能的原创文章。",
+        "avatar": "https://yuzhouwan.com/yuzhouwan_logo_128x128.ico"
+    },{
+        "name": "Dotnet9的博客",
+        "url": "https://dotnet9.com",
+        "title": "访问主页",
+        "introduction": "一个热衷于互联网分享精神的个人博客站点",
+        "avatar": "https://img.dotnet9.com/logo-foot.png"
+    },{
+        "name": "Macchiato",
+        "url": "https://hcj123123.oschina.io",
+        "title": "访问主页",
+        "introduction": "java学习者",
+        "avatar": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002qD7gF3fW0JL_1.jpg?max_age=2592000"
+    },{
+        "name": "过客~励む",
+        "url": "https://yafine-blog.cn",
+        "title": "访问主页",
+        "introduction": "你现在的努力，是为了以后有更多的选择。",
+        "avatar": "https://yafine-blog.cn/medias/avatar.jpg"
+    },{
+        "name": "meteorsh",
+        "url": "https://weisenhui.top",
+        "title": "访问主页",
+        "introduction": "Data Science & Engineering",
+        "avatar": "https://weisenhui.top/medias/avatar.jpg"
+    },{
+        "name": "Kuroko",
+        "url": "https://kuroko.info",
+        "title": "访问主页",
+        "introduction": "浓烟下的诗歌电台",
+        "avatar": "http://kuroko.info/wp-content/uploads/2020/11/2.jpg"
     }
 ]
